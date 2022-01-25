@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc --build"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@fastify/type-provider-typebox": "github:fastify/fastify-type-provider-typebox#main",
+    "@sinclair/typebox": "^0.23.3",
+    "fastify": "github:fastify/fastify#next"
+  }
+}
